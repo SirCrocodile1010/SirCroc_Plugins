@@ -1,0 +1,19 @@
+{
+  "name": "4KHDHub Repo",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "4khdhub",
+      "name": "4KHDHub",
+      "description": "Direct MKV links from 4KHDHub. Hindi, Tamil, Telugu, English. 4K HDR, 1080p, 2160p BluRay & WEB-DL.",
+      "version": "1.0.0",
+      "author": "custom",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/4khdhub.js",
+      "enabled": true,
+      "formats": ["mkv"],
+      "logo": "https://4khdhub.one/images/4KHDHUB-Dark-Logo.png",
+      "contentLanguage": ["en", "hi", "ta", "te"]
+    }
+  ]
+}
